@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: #fffaf6;
+}
+
+.cv-completo{
+    max-width: 900px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid;
+    box-shadow: 30%;
+}
+
+.información-principal{
+    grid-column: 1 / -1;
+}
+
+.pérfil{
+    display: flex;
+    gap: 2px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 1.5%;
+    background-color: #bcdbd3;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+
+.imagen{
+    display: flex;
+    margin: 5px 5px;
+    padding: 2px;
+    object-position: 50%;
+}
+
+.nombre{
+    color: #5f8884;
+    font-size: 35px;
+}
+
+.descripción{
+    object-position: 50%;
+}
+
+h1{
+    text-align: justify;
+}   
+
+h2{
+    font-size: 25px;
+    color: #22423d;
+}
+
+.descripción .título{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.Personal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #86bbb6;
+    border-radius: 1.5%;
+    margin: 5px 2px;
+    width: 70%;
+}
+
+.Experiencia{
+    display: flex;
+    text-align: justify;
+    width: 90%;
+}
+
+.icono-tel{     
+    display: flex;
+    width: 20px;
+    height: 20px  
+}
+
+.icono-correo{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.icono-ubi{
+    display: grid;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.Idiomas ul li{
+    list-style: none;
+}
+
+.Idiomas li #mex img{
+    margin: 5px;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.Idiomas li #usa img{
+    margin: 5px;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.Idiomas li #fran img{
+    margin: 5px;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.Redes a{
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    color: #22423d;
+}
+.Redes .iconoinsta img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
